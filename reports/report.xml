@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" name="IntelliJ IDEA HTTP Client">
+  <testsuite tests="1" name="this-will-fail" failures="1" errors="0" skip="0">
+    <testcase classname="http._1" name="Response" time="0.171">
+      <failure type="Error" message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:60932 [localhost/127.0.0.1] failed: Connection refused" />
+    </testcase>
+  </testsuite>
+</testsuites>
+
